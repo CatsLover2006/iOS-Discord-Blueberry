@@ -124,16 +124,16 @@
 		09610CC0224745F5000E65E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09610CC2224745F5000E65E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09610CC4224745F5000E65E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		09610CC8224745F5000E65E1 /* raspberry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "raspberry-Info.plist"; sourceTree = "<group>"; };
+		09610CC8224745F5000E65E1 /* Discord-Blueberry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Discord-Blueberry-Info.plist"; sourceTree = "<group>"; };
 		09610CCA224745F5000E65E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09610CCC224745F5000E65E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09610CCE224745F5000E65E1 /* raspberry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "raspberry-Prefix.pch"; sourceTree = "<group>"; };
+		09610CCE224745F5000E65E1 /* Discord-Blueberry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Discord-Blueberry-Prefix.pch"; sourceTree = "<group>"; };
 		09610CCF224745F5000E65E1 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
 		09610CD0224745F5000E65E1 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
 		09610CD2224745F5000E65E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		09610CD4224745F5000E65E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		09610CD6224745F5000E65E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		09610CE3224745F5000E65E1 /* raspberryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raspberryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09610CE3224745F5000E65E1 /* Discord-BlueberryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discord-BlueberryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09610CE4224745F5000E65E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		09610CFD22474651000E65E1 /* DCChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCChannel.h; sourceTree = "<group>"; };
 		09610CFE22474651000E65E1 /* DCChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCChannel.m; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 		09EF39082247D18E00C3FA68 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		09EF390C2248074400C3FA68 /* RBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBClient.h; sourceTree = "<group>"; };
 		09EF390D2248074400C3FA68 /* RBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBClient.m; sourceTree = "<group>"; };
-		AB783A1723039EF80001B787 /* Storyboard ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Storyboard ipad.storyboard"; path = "raspberry/Storyboard ipad.storyboard"; sourceTree = SOURCE_ROOT; };
+		AB783A1723039EF80001B787 /* Storyboard ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard ipad.storyboard"; sourceTree = "<group>"; };
 		ABA46037230362C000AC83DF /* RBGuildMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBGuildMenuViewController.h; sourceTree = "<group>"; };
 		ABA46038230362C000AC83DF /* RBGuildMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBGuildMenuViewController.m; sourceTree = "<group>"; };
 		ABA4603A2303645D00AC83DF /* RBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSettingsViewController.h; sourceTree = "<group>"; };
@@ -284,12 +284,12 @@
 		09610CB4224745F5000E65E1 = {
 			isa = PBXGroup;
 			children = (
-				09610CC6224745F5000E65E1 /* raspberry */,
-				09EF390A2247D1FF00C3FA68 /* view controllers */,
-				09EF390B2248072700C3FA68 /* client */,
-				09C48AFF22A206C40059F91E /* data sources */,
-				09EF38FA2247C86B00C3FA68 /* gateway */,
-				09610CFC22474651000E65E1 /* object models */,
+				09610CC6224745F5000E65E1 /* Blueberry */,
+				09EF390A2247D1FF00C3FA68 /* View Controllers */,
+				09EF390B2248072700C3FA68 /* Client */,
+				09C48AFF22A206C40059F91E /* Data Stores */,
+				09EF38FA2247C86B00C3FA68 /* Gateway */,
+				09610CFC22474651000E65E1 /* Object Models */,
 				09610D1822474658000E65E1 /* lib */,
 				09610CBE224745F5000E65E1 /* Products */,
 				09610CBF224745F5000E65E1 /* Frameworks */,
@@ -300,7 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				09610CBD224745F5000E65E1 /* Discord.app */,
-				09610CE3224745F5000E65E1 /* raspberryTests.octest */,
+				09610CE3224745F5000E65E1 /* Discord-BlueberryTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		09610CC6224745F5000E65E1 /* raspberry */ = {
+		09610CC6224745F5000E65E1 /* Blueberry */ = {
 			isa = PBXGroup;
 			children = (
 				09610CCF224745F5000E65E1 /* RBAppDelegate.h */,
@@ -329,16 +329,16 @@
 				0983EC962410A5AB00A1E94D /* Images.xcassets */,
 				09610CC7224745F5000E65E1 /* Supporting Files */,
 			);
-			path = raspberry;
+			path = Blueberry;
 			sourceTree = "<group>";
 		};
 		09610CC7224745F5000E65E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				09610CC8224745F5000E65E1 /* raspberry-Info.plist */,
+				09610CC8224745F5000E65E1 /* Discord-Blueberry-Info.plist */,
 				09610CC9224745F5000E65E1 /* InfoPlist.strings */,
 				09610CCC224745F5000E65E1 /* main.m */,
-				09610CCE224745F5000E65E1 /* raspberry-Prefix.pch */,
+				09610CCE224745F5000E65E1 /* Discord-Blueberry-Prefix.pch */,
 				09610CD2224745F5000E65E1 /* Default.png */,
 				09610CD4224745F5000E65E1 /* Default@2x.png */,
 				09610CD6224745F5000E65E1 /* Default-568h@2x.png */,
@@ -346,7 +346,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		09610CFC22474651000E65E1 /* object models */ = {
+		09610CFC22474651000E65E1 /* Object Models */ = {
 			isa = PBXGroup;
 			children = (
 				09610CFF22474651000E65E1 /* DCDiscordObject.h */,
@@ -370,7 +370,7 @@
 				09610D0922474651000E65E1 /* DCMessageAttachment.h */,
 				09610D0A22474651000E65E1 /* DCMessageAttachment.m */,
 			);
-			path = "object models";
+			path = "Object Models";
 			sourceTree = "<group>";
 		};
 		09610D1822474658000E65E1 /* lib */ = {
@@ -435,7 +435,7 @@
 			name = ftwcache;
 			sourceTree = "<group>";
 		};
-		09C48AFF22A206C40059F91E /* data sources */ = {
+		09C48AFF22A206C40059F91E /* Data Stores */ = {
 			isa = PBXGroup;
 			children = (
 				09C48AFC22A206BC0059F91E /* RBGuildStore.h */,
@@ -443,10 +443,10 @@
 				09AB656D23BAC60A005ADD68 /* RBUserStore.h */,
 				09AB656E23BAC60A005ADD68 /* RBUserStore.m */,
 			);
-			name = "data sources";
+			name = "Data Stores";
 			sourceTree = "<group>";
 		};
-		09EF38FA2247C86B00C3FA68 /* gateway */ = {
+		09EF38FA2247C86B00C3FA68 /* Gateway */ = {
 			isa = PBXGroup;
 			children = (
 				090E0E7922481240004B30AC /* API Settings.plist */,
@@ -461,11 +461,11 @@
 				09CE3DF8226BCA6B00CF6E55 /* RBCommon.h */,
 				09CE3DF9226BCA6B00CF6E55 /* RBCommon.m */,
 			);
-			name = gateway;
-			path = api/gateway;
+			name = Gateway;
+			path = api/Gateway;
 			sourceTree = "<group>";
 		};
-		09EF390A2247D1FF00C3FA68 /* view controllers */ = {
+		09EF390A2247D1FF00C3FA68 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				099A611F22FA6A6200C8E877 /* RBLoginViewController.h */,
@@ -482,24 +482,24 @@
 				0983EC93240FF27A00A1E94D /* TRMalleableFrameView.h */,
 				0983EC94240FF27A00A1E94D /* TRMalleableFrameView.m */,
 			);
-			path = "view controllers";
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		09EF390B2248072700C3FA68 /* client */ = {
+		09EF390B2248072700C3FA68 /* Client */ = {
 			isa = PBXGroup;
 			children = (
 				09EF390C2248074400C3FA68 /* RBClient.h */,
 				09EF390D2248074400C3FA68 /* RBClient.m */,
 			);
-			path = client;
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09610CBC224745F5000E65E1 /* raspberry */ = {
+		09610CBC224745F5000E65E1 /* Discord-Blueberry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09610CF5224745F5000E65E1 /* Build configuration list for PBXNativeTarget "raspberry" */;
+			buildConfigurationList = 09610CF5224745F5000E65E1 /* Build configuration list for PBXNativeTarget "Discord-Blueberry" */;
 			buildPhases = (
 				09610CB9224745F5000E65E1 /* Sources */,
 				09610CBA224745F5000E65E1 /* Frameworks */,
@@ -509,14 +509,14 @@
 			);
 			dependencies = (
 			);
-			name = raspberry;
+			name = "Discord-Blueberry";
 			productName = raspberry;
 			productReference = 09610CBD224745F5000E65E1 /* Discord.app */;
 			productType = "com.apple.product-type.application";
 		};
-		09610CE2224745F5000E65E1 /* raspberryTests */ = {
+		09610CE2224745F5000E65E1 /* Discord-BlueberryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09610CF8224745F5000E65E1 /* Build configuration list for PBXNativeTarget "raspberryTests" */;
+			buildConfigurationList = 09610CF8224745F5000E65E1 /* Build configuration list for PBXNativeTarget "Discord-BlueberryTests" */;
 			buildPhases = (
 				09610CDE224745F5000E65E1 /* Sources */,
 				09610CDF224745F5000E65E1 /* Frameworks */,
@@ -528,9 +528,9 @@
 			dependencies = (
 				09610CE9224745F5000E65E1 /* PBXTargetDependency */,
 			);
-			name = raspberryTests;
+			name = "Discord-BlueberryTests";
 			productName = raspberryTests;
-			productReference = 09610CE3224745F5000E65E1 /* raspberryTests.octest */;
+			productReference = 09610CE3224745F5000E65E1 /* Discord-BlueberryTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -559,7 +559,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09610CB8224745F5000E65E1 /* Build configuration list for PBXProject "raspberry" */;
+			buildConfigurationList = 09610CB8224745F5000E65E1 /* Build configuration list for PBXProject "Discord-Blueberry" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -572,8 +572,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09610CBC224745F5000E65E1 /* raspberry */,
-				09610CE2224745F5000E65E1 /* raspberryTests */,
+				09610CBC224745F5000E65E1 /* Discord-Blueberry */,
+				09610CE2224745F5000E65E1 /* Discord-BlueberryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -696,7 +696,7 @@
 /* Begin PBXTargetDependency section */
 		09610CE9224745F5000E65E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09610CBC224745F5000E65E1 /* raspberry */;
+			target = 09610CBC224745F5000E65E1 /* Discord-Blueberry */;
 			targetProxy = 09610CE8224745F5000E65E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -782,10 +782,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N5NNLDYS2;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "raspberry/raspberry-Prefix.pch";
+				GCC_PREFIX_HEADER = "raspberry/Discord-Blueberry-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
-				INFOPLIST_FILE = "raspberry/raspberry-Info.plist";
+				INFOPLIST_FILE = "raspberry/Discord-Blueberry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Discord;
@@ -807,10 +807,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 3N5NNLDYS2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "raspberry/raspberry-Prefix.pch";
+				GCC_PREFIX_HEADER = "raspberry/Discord-Blueberry-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
-				INFOPLIST_FILE = "raspberry/raspberry-Info.plist";
+				INFOPLIST_FILE = "raspberry/Discord-Blueberry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Discord;
@@ -871,7 +871,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09610CB8224745F5000E65E1 /* Build configuration list for PBXProject "raspberry" */ = {
+		09610CB8224745F5000E65E1 /* Build configuration list for PBXProject "Discord-Blueberry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09610CF3224745F5000E65E1 /* Debug */,
@@ -880,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09610CF5224745F5000E65E1 /* Build configuration list for PBXNativeTarget "raspberry" */ = {
+		09610CF5224745F5000E65E1 /* Build configuration list for PBXNativeTarget "Discord-Blueberry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09610CF6224745F5000E65E1 /* Debug */,
@@ -889,7 +889,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09610CF8224745F5000E65E1 /* Build configuration list for PBXNativeTarget "raspberryTests" */ = {
+		09610CF8224745F5000E65E1 /* Build configuration list for PBXNativeTarget "Discord-BlueberryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09610CF9224745F5000E65E1 /* Debug */,
