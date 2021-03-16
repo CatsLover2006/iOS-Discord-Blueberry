@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loginIndicator;
 
 @property bool authenticated;
+@property bool autoauthenticate;
 
 @end
 
@@ -29,12 +30,15 @@
 - (void)viewDidLoad{
 	[super viewDidLoad];
     
+    self.autoauthenticate = false;
+    
 	self.navigationItem.hidesBackButton = YES;
     
     NSString *lastUsableToken = [NSUserDefaults.standardUserDefaults objectForKey:@"last usable token"];
     
-    if(lastUsableToken){
+    if (lastUsableToken){
         self.tokenTextField.text = lastUsableToken;
+        self.autoauthenticate = true;
     }else{
         self.tokenTextField.text = UIPasteboard.generalPasteboard.string;
     }
@@ -47,13 +51,21 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     self.authenticated = false;
+    if (self.autoauthenticate){
+        [RBClient.sharedInstance newSessionWithTokenString:self.tokenTextField.text shouldResume:false];
+        [self.loginIndicator startAnimating];
+        [self.loginIndicator setHidden:false];
+        [self.loginButton setHidden:true];
+        
+        [self performSelector:@selector(checkAuth) withObject:nil afterDelay:10];
+    }
 }
 
 - (void)didReceiveMemoryWarning{
 	[super didReceiveMemoryWarning];
 }
 
-- (IBAction)loginButtonWasClicked {
+- (void) authenticate {
 	[RBClient.sharedInstance newSessionWithTokenString:self.tokenTextField.text shouldResume:false];
 	[self.loginIndicator startAnimating];
 	[self.loginIndicator setHidden:false];

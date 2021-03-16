@@ -18,6 +18,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *guildTableView;
 @property (weak, nonatomic) IBOutlet UITableView *channelTableView;
+@property (weak, nonatomic) IBOutlet UINavigationItem *navBar;
 @property DCGuild *selectedGuild;
 @property DCChannel *selectedChannel;
 
@@ -51,6 +52,10 @@
 	
 	if(tableView == self.guildTableView){
 		self.selectedGuild = [RBClient.sharedInstance.guildStore guildAtIndex:(int)indexPath.row];
+        self.navBar.title = self.selectedGuild.name;
+        if (self.selectedGuild.name == @"DM Channel") {
+            self.navBar.title = @"Direct Messages";
+        }
 		[self.channelTableView reloadData];
 	}
     
