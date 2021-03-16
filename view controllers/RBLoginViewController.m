@@ -65,7 +65,7 @@
 	[super didReceiveMemoryWarning];
 }
 
-- (void) authenticate {
+- (IBAction)loginButtonWasClicked {
 	[RBClient.sharedInstance newSessionWithTokenString:self.tokenTextField.text shouldResume:false];
 	[self.loginIndicator startAnimating];
 	[self.loginIndicator setHidden:false];
